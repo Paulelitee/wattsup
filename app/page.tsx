@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import receiptTop from '../public/assets/images/receipt-printer-top.png'
-import receiptBottom from '../public/assets/images/receipt-bottom.jpg
+import receiptBottom from '../public/assets/images/receipt-bottom.jpg'
 
 function App() {
   return (
