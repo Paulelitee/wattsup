@@ -34,3 +34,22 @@ h1 {
   letter-spacing: -3%;
   font-size: 24px;
 }
+
+.receipt-printer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 750px;
+  width: 100%;
+  padding: 40px;
+}
+
+.receipt-printer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 750px;
+}
+

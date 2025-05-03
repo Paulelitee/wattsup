@@ -1,12 +1,14 @@
 "use client"
 
+import Image from 'next/image'
+import receiptTop from '../public/assets/images/receipt-printer-top.png'
 
 function App() {
   return (
     <main>
         <div className="pt-16 px-4 bg-white">
            <h1 className="">Estimate bill</h1>
-           <div className="flex flex-row justify--between w-full text-sm font-medium pt-4 ">
+           <div className="flex flex-row justify--between w-full text-sm font-medium pt-4">
             <div className="py-2 w-full text-sky-500 border-sky-500 border-b-1 flex flex-row justify-center">
                 Nepa
             </div>
@@ -14,6 +16,11 @@ function App() {
               Gen (coming soon)
             </div>
            </div>
+           <div className='receipt-printer-wrapper'>
+            <div className='receipt-printer'>
+                <Image src = {receiptTop} alt = "receipt image"/>
+              </div>
+            </div>
        </div>
       </main>
   )
