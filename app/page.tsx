@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import receiptTop from '../public/assets/images/receipt-printer-top.png'
+import receiptBottom from '../public/assets/images/receipt-bottom.jpg
 
 function App() {
   return (
@@ -17,9 +18,13 @@ function App() {
             </div>
            </div>
            <div className='receipt-printer-wrapper'>
-            <div className='receipt-printer'>
+              <div className='receipt-printer'>
                 <Image src = {receiptTop} alt = "receipt image"/>
               </div>
+              <div className='receipt-details'>
+                  Product one
+              </div>
+              <Image src = {receiptBottom} alt = "receipt image"/>
             </div>
        </div>
       </main>

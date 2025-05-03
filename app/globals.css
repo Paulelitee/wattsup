@@ -50,6 +50,11 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 750px;
+  width: 328px;
+}
+
+.receipt-details {
+  width: 248px;
+  height: 80px;
 }
 
