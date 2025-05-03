@@ -1,13 +1,13 @@
 "use client"
 
-import ElectricityEstimator from './components/ElectricityEstimator'
 
 function App() {
   return (
     <main>
-      <h1>Estimate Your Electricity Bill</h1>
-      <ElectricityEstimator />
-    </main>
+        <div className="py-8 px-4">
+           <h1>Estimate Your Electricity Bill</h1>
+       </div>
+      </main>
   )
 }
 
