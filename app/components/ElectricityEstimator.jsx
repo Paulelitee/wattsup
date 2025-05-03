@@ -73,9 +73,7 @@ export default function ElectricityEstimator() {
   };
   
   return (
-    <div className="container">
-      <h1>Estimate Your Electricity Bill</h1>
-      
+    <div className="container">      
       <div className="input-group">
         <input 
           type="text" 
