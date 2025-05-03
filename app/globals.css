@@ -57,10 +57,9 @@ h1 {
   width: 248px;
   height: 80px;
   padding: 16px;
-  background-color: #E2E4E9;
-}
+  background: linear-gradient(to top, #E2E4E9, #FAFAFC);}
 
 .receipt-bottom-wrapper {
-  width: 500px;
+  width: 248px;
 }
 

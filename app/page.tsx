@@ -24,7 +24,9 @@ function App() {
               <div className='receipt-details'>
                   Product one
               </div>
-              <Image src = {receiptBottom} alt = "receipt image"/>
+              <div className='receipt-bottom-wrapper bg-red-500'>
+                <Image src = {receiptBottom} alt = "receipt image"/>
+              </div>
             </div>
        </div>
       </main>
