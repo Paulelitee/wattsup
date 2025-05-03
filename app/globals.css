@@ -56,5 +56,11 @@ h1 {
 .receipt-details {
   width: 248px;
   height: 80px;
+  padding: 16px;
+  background-color: #E2E4E9;
+}
+
+.receipt-bottom-wrapper {
+  width: 248px;
 }
 
