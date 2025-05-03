@@ -24,7 +24,7 @@
 body {
   background: hsl(223, 15%, 95%);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: 'Geist', sans-serif;
 }
 
 h1 {
