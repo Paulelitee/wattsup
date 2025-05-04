@@ -7,7 +7,7 @@ import receiptBottom from '../public/assets/images/receipt-bottom.jpg'
 
 function App() {
   
-  let items = ['']
+  const  items = ['']
 
   return (
     <main>
