@@ -3,16 +3,11 @@
 import Image from 'next/image'
 import receiptTop from '../public/assets/images/receipt-printer-top.png'
 import receiptBottom from '../public/assets/images/receipt-bottom.jpg'
-import { useState } from 'react'
 
 
 function App() {
-  interface ReceiptItem {
-    id: number;
-    name: string;
-  }
-
-  const [items, setItems] = useState<ReceiptItem[]>([]);
+  
+  let items = ['']
 
   return (
     <main>
@@ -26,20 +21,20 @@ function App() {
               Gen (coming soon)
             </div>
            </div>
-       </div>
-       <div className='receipt-printer-wrapper'>
+           <div className='receipt-printer-wrapper'>
             <button className='bg-gray-500 text-white px-4 py-2'>Add</button>
               <div className='receipt-printer'>
                 <Image src = {receiptTop} alt = "receipt image"/>
               </div>
               <div className='receipt-details'>
-               { items.map(item =>      <p className='text-gray-700'>Product 1</p>
+               { items.map((item, id) => <p key = {id} className='text-gray-700'>{item}</p>
                 )}
               </div>
               <div className='receipt-bottom-wrapper bg-red-500'>
                 <Image src = {receiptBottom} alt = "receipt image"/>
               </div>
             </div>
+       </div>
       </main>
   )
 }
