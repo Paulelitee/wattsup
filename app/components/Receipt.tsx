@@ -8,7 +8,7 @@ const items = ['']
 
 export default function Receipt() {
 
-    return <div className='receipt-printer-wrapper'>
+    return <div className='receipt-printer-wrapper w-full'>
     <button className='bg-gray-500 text-white px-4 py-2'>Add</button>
       <div className='receipt-printer'>
         <Image src = {receiptTop} alt = "receipt image"/>
@@ -19,6 +19,6 @@ export default function Receipt() {
       </div>
       <div className='receipt-bottom-wrapper'>
         <Image src = {receiptBottom} alt = "receipt image"/>
-      </div>////
+      </div>
     </div>
 }

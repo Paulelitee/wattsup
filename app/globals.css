@@ -40,7 +40,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 750px;
   width: 100%;
   padding: 40px;
 }
