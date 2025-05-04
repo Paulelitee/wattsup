@@ -1,6 +1,7 @@
 "use client"
 
 import Receipt from "./components/Receipt"
+import SelectAppliances from "./components/SelectAppliances"
 
 function App() {
   
@@ -18,6 +19,8 @@ function App() {
             </div>
            </div>
        </div>
+       
+       <SelectAppliances />
 
        <Receipt />
       </main>

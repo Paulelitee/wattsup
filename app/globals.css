@@ -55,11 +55,18 @@ h1 {
 .receipt-details {
   width: 248px;
   padding: 0px 16px;
-  background: linear-gradient(to top, #E2E4E9, #FAFAFC);
+  background: linear-gradient(to top, #E2E4E9, #FAFAF9);
   height: auto;
+  min-height: 8px;
 }
 
 .receipt-bottom-wrapper {
   width: 248px;
 }
 
+.appliance {
+  font-size: 14px;
+  border: solid 0.5px #fafafa;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+}
