@@ -69,4 +69,6 @@ h1 {
   border: solid 0.5px #fafafa;
   border-radius: 8px;
   background-color: #fcfcfc;
+  padding: 2px 4px;
+  text-transform: capitalize;
 }
